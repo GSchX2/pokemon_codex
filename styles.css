@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    max-width: 100vw;
+}
+
+main {
+    min-height: 87vh;
+}
+
+.nav-link {
+    color: white;
+}
+
+.card-box {
+    max-width: 22rem;
+    min-width: 22rem;
+}
+
+.img-space {
+    position: relative;
+    height: 20rem;
+    width: auto;
+}
+
+.pokemon-low {
+    position: absolute;
+    margin-top: 10rem;
+    height: 10rem;
+    width: auto;
+}
+
+.pokemon-mid {
+    position: absolute;
+    margin-top: 5rem;
+    height: 15rem;
+    width: auto;
+}
+
+.pokemon-high {
+    position: absolute;
+    height: 20rem;
+    width: auto;
+}
+
+.h5 {
+    padding: 0 2rem 0 2rem;
+    font-size: 0.65rem;
+}
+
+.h4 {
+    padding: 0 2rem 0 2rem;
+    font-size: 0.85rem;
+}
+
+.h3 {
+    font-size: 1.2rem;
+}
+
+.division-bar {
+    height: 0.3rem;
+    margin: 0 2rem 0 2rem;
+}
+
+.shape {
+    filter: invert(25%)
+}
+
+.footprint {
+    max-height: 85%;
+    filter: grayscale(100%)
+}
+
+.white-box {
+    background-color: white;
+    height: 2rem;
+    width: 4rem;
+
+}
+
+.inputGuess {
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+footer p {
+    font-size: 0.85rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
